@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1326f0;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+    /* padding: 40px; */
+}
+
+h1 {
+	font-size: 2.3em;
+	/* line-height: 1.5em; */
+	/* margin: 15px 0; */
+	/* text-align: left; */
+	font-weight: 300;
+    color: #000;
+    margin: 0px;
+}
+
+.cabecera {
+    background: #75a3ee;
+    height: 150px;
+    padding: 50px;
+    line-height: 150px; /*si es igual al alto del elemento es para centrar el texto . Tambien para establecer la distancia entre líneas de texto*/
+    /* vertical-align: middle; */
+}
+
+#titulo {
+    float: left;
+    /* justify-content: left; */
+    /* width: 300px; */
+    /* margin: left 20px; ; */
+}
+
+.botonera-cabecera {
+    float: right;
+}
+.botonera-cabecera ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+    .botonera-cabecera ul li {
+        display: inline-block;
+        line-height: 80px; 
+    }
+        
+        .botonera-cabecera ul li a {
+            display: block;
+            padding: 0 10px;
+            text-decoration: none;
+        }
+        
+        .botonera-cabecera ul li a:hover {
+            background: #0b76a6;
+        }
+
+.seccion-inicio {
+    background-color: #90b6f4;
+    padding: 50px;
+    height: auto;
+}
+#titulo-inicio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 250px 250px; */
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .articulo {
+    height: 250px;
+    background-color: antiquewhite;
+    display: flex;
+
+  }
+
+  .descripcion-articulo {
+    position: relative;
+  }
+
+  .descripcion-articulo span {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    margin: 20px;
+  }
+
+  .precio-articulo {
+    font-size: 30px;
+  }
+
+  .boton {
+    font-size: larger;
+    margin: 20px;
+    position: absolute;
+    top: 170px;
+  }
+
+  .seccion-footer {
+    height: 250px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .seccion-footer div {
+    width: 33%;
+    height:200px;
+  }
+  .texto-footer {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+  }
+  .productos-footer {
+    padding-left: 100px;
+  }
+
+  .botonera-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    padding-right: 20px;
+    
+  }
+
+  .botonera-footer ul li {
+    display: vertical;
+    line-height: 50px;
+  }
+
+  .botonera-footer ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.botonera-footer-2 ul {
+  margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    padding-right: 20px;
+}
+.botonera-footer-2 ul li {
+  display: vertical;
+  line-height: 50px;
+}
+.botonera-footer-2 ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.titulo-footer {
+  font-size: 20px;
+  font-weight: bold;
+}
